@@ -34,12 +34,12 @@ include 'includes/navbar.php';
                             </h1>
                             <div class="rs-banner-descrip wow fadeInUp text-center" data-wow-delay=".5s"
                                 data-wow-duration=".9s">
-                                <p>Singta Resources is building the critical minerals infrastructure Western
+                                <p>SINGTA Resources is building the critical minerals infrastructure Western
                                     governments and industry need but cannot outsource.
 
                                 </p>
                             </div>
-                            <div class="rs-banner-btn wow fadeInUp text-center" data-wow-delay=".7s"
+                            <!-- <div class="rs-banner-btn wow fadeInUp text-center" data-wow-delay=".7s"
                                 data-wow-duration="1.1s">
 
                                 <a class="rs-btn btn-outline-white has-icon mb-10" href="contact.php">
@@ -60,7 +60,7 @@ include 'includes/navbar.php';
                                         </svg>
                                     </span>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -70,64 +70,139 @@ include 'includes/navbar.php';
     <!-- banner area end -->
 
     <!-- text slider area start -->
+
+
     <div class="rs-text-slide-area rs-text-slide-one">
-    <div class="container-fluid">
-        <div class="rs-text-slide-wrapper">
-            <div class="gsap-marquee right speed-20 move-to-1000">
+        <div class="container-fluid">
+            <div class="rs-text-slide-wrapper">
                 <div class="rs-text-slide-inner">
+
                     <div class="rs-text-slide-item">
                         <h2 class="rs-text-slide-title">Antimony</h2>
-                        <div class="rs-text-slide-thumb">
-                            <img src="assets/images/shape/gears-shape.png" alt="icon">
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
                         </div>
                     </div>
                     <div class="rs-text-slide-item">
                         <h2 class="rs-text-slide-title">Tungsten</h2>
-                        <div class="rs-text-slide-thumb">
-                            <img src="assets/images/shape/gears-shape.png" alt="icon">
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
                         </div>
                     </div>
                     <div class="rs-text-slide-item">
                         <h2 class="rs-text-slide-title">Aluminum</h2>
-                        <div class="rs-text-slide-thumb">
-                            <img src="assets/images/shape/gears-shape.png" alt="icon">
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
                         </div>
                     </div>
                     <div class="rs-text-slide-item">
                         <h2 class="rs-text-slide-title">Potash</h2>
-                        <div class="rs-text-slide-thumb">
-                            <img src="assets/images/shape/gears-shape.png" alt="icon">
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
                         </div>
                     </div>
                     <div class="rs-text-slide-item">
                         <h2 class="rs-text-slide-title">Phosphate</h2>
-                        <div class="rs-text-slide-thumb">
-                            <img src="assets/images/shape/gears-shape.png" alt="icon">
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
                         </div>
                     </div>
                     <div class="rs-text-slide-item">
                         <h2 class="rs-text-slide-title">Critical Minerals</h2>
-                        <div class="rs-text-slide-thumb">
-                            <img src="assets/images/shape/gears-shape.png" alt="icon">
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
+                        </div>
+                    </div>
+
+                    <div class="rs-text-slide-item">
+                        <h2 class="rs-text-slide-title">Antimony</h2>
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
                         </div>
                     </div>
                     <div class="rs-text-slide-item">
-                        <h2 class="rs-text-slide-title">Refining</h2>
-                        <div class="rs-text-slide-thumb">
-                            <img src="assets/images/shape/gears-shape.png" alt="icon">
+                        <h2 class="rs-text-slide-title">Tungsten</h2>
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
                         </div>
                     </div>
                     <div class="rs-text-slide-item">
-                        <h2 class="rs-text-slide-title">Supply Chain</h2>
-                        <div class="rs-text-slide-thumb">
-                            <img src="assets/images/shape/gears-shape.png" alt="icon">
+                        <h2 class="rs-text-slide-title">Aluminum</h2>
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="rs-text-slide-item">
+                        <h2 class="rs-text-slide-title">Potash</h2>
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="rs-text-slide-item">
+                        <h2 class="rs-text-slide-title">Phosphate</h2>
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="rs-text-slide-item">
+                        <h2 class="rs-text-slide-title">Critical Minerals</h2>
+                        <div class="rs-text-slide-thumb"><img src="assets/images/shape/gears-shape.png" alt="icon">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="rs-text-slide-area rs-text-slide-one">
+        <div class="container-fluid">
+            <div class="rs-text-slide-wrapper">
+                <div class="gsap-marquee right speed-20 move-to-1000">
+                    <div class="rs-text-slide-inner">
+                        <div class="rs-text-slide-item">
+                            <h2 class="rs-text-slide-title">Antimony</h2>
+                            <div class="rs-text-slide-thumb">
+                                <img src="assets/images/shape/gears-shape.png" alt="icon">
+                            </div>
+                        </div>
+                        <div class="rs-text-slide-item">
+                            <h2 class="rs-text-slide-title">Tungsten</h2>
+                            <div class="rs-text-slide-thumb">
+                                <img src="assets/images/shape/gears-shape.png" alt="icon">
+                            </div>
+                        </div>
+                        <div class="rs-text-slide-item">
+                            <h2 class="rs-text-slide-title">Aluminum</h2>
+                            <div class="rs-text-slide-thumb">
+                                <img src="assets/images/shape/gears-shape.png" alt="icon">
+                            </div>
+                        </div>
+                        <div class="rs-text-slide-item">
+                            <h2 class="rs-text-slide-title">Potash</h2>
+                            <div class="rs-text-slide-thumb">
+                                <img src="assets/images/shape/gears-shape.png" alt="icon">
+                            </div>
+                        </div>
+                        <div class="rs-text-slide-item">
+                            <h2 class="rs-text-slide-title">Phosphate</h2>
+                            <div class="rs-text-slide-thumb">
+                                <img src="assets/images/shape/gears-shape.png" alt="icon">
+                            </div>
+                        </div>
+                        <div class="rs-text-slide-item">
+                            <h2 class="rs-text-slide-title">Critical Minerals</h2>
+                            <div class="rs-text-slide-thumb">
+                                <img src="assets/images/shape/gears-shape.png" alt="icon">
+                            </div>
+                        </div>
+                        <div class="rs-text-slide-item">
+                            <h2 class="rs-text-slide-title">Refining</h2>
+                            <div class="rs-text-slide-thumb">
+                                <img src="assets/images/shape/gears-shape.png" alt="icon">
+                            </div>
+                        </div>
+                        <div class="rs-text-slide-item">
+                            <h2 class="rs-text-slide-title">Supply Chain</h2>
+                            <div class="rs-text-slide-thumb">
+                                <img src="assets/images/shape/gears-shape.png" alt="icon">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </div> -->
     <!-- about area start -->
     <section class="rs-about-area section-space-bottom rs-about-eight section-space">
         <div class="rs-about-shape-one">
@@ -137,7 +212,7 @@ include 'includes/navbar.php';
             <img src="assets/images/shape/about-shape-04.png" alt="image">
         </div>
         <div class="container">
-            <div class="row g-5 align-items-center">
+            <div class="row g-5 ">
                 <div class="col-xl-5 col-lg-5">
                     <div class="rs-about-thumb-wrapper">
                         <div class="rs-about-thumb img-one w-100">
@@ -191,7 +266,7 @@ include 'includes/navbar.php';
                             <div class="rs-solution-callout wow fadeInUp mb-40" data-wow-delay=".3s"
                                 style="background: #1A1A1A; border-left: 5px solid #B71C1C; padding: 25px 30px; border-radius: 0 8px 8px 0; margin-top: 30px;">
                                 <p style="margin: 0; color: #ffffff; font-size: 20px; line-height: 1.2;">
-                                    Singta <span
+                                    SINGTA <span
                                         style="font-weight: 700; text-transform: uppercase; color: #ffffff; letter-spacing: 1px;">builds
                                         the missing infrastructure.</span>
                                 </p>
@@ -248,7 +323,7 @@ include 'includes/navbar.php';
                             Refinery
                         </h2>
 
-                        <p class="description mt-5 text-white">Singta is developing the first large-scale U.S.
+                        <p class="description mt-5 text-white">SINGTA is developing the first large-scale U.S.
                             antimony refinery
 
                         </p>
@@ -282,11 +357,9 @@ include 'includes/navbar.php';
                             <h5 class="rs-services-title underline ">~60,000 T/Year</h5>
                         </div>
                         <div class="rs-services-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="68" viewBox="0 0 80 68"
-                                fill="none">
-                                <path
-                                    d="M79.9911 58.8021C76.649 58.8021 74.9175 57.6388 73.3874 56.6143C72.0183 55.6926 70.9356 54.9678 68.5599 54.9678C66.1842 54.9678 65.106 55.6926 63.7369 56.6143C62.2068 57.6388 60.4754 58.8021 57.1333 58.8021C53.7912 58.8021 52.0597 57.6388 50.5296 56.6143C49.1606 55.6926 48.0779 54.9678 45.7066 54.9678C43.3354 54.9678 42.2527 55.6926 40.8836 56.6143C39.3535 57.6388 37.6221 58.8021 34.28 58.8021C30.9379 58.8021 29.2064 57.6388 27.6763 56.6143C26.3073 55.6926 25.2245 54.9678 22.8533 54.9678C20.4821 54.9678 19.3994 55.6926 18.0303 56.6143C16.5002 57.6388 14.7687 58.8021 11.4267 58.8021C8.08456 58.8021 6.35311 57.6388 4.823 56.6143C3.45395 55.6926 2.37123 54.9678 0 54.9678V49.9704C3.34209 49.9704 5.07354 51.1336 6.60366 52.1582C7.97271 53.0798 9.05542 53.8046 11.4267 53.8046C13.7979 53.8046 14.8806 53.0798 16.2497 52.1582C17.7798 51.1336 19.5112 49.9704 22.8533 49.9704C26.1954 49.9704 27.9269 51.1336 29.457 52.1582C30.826 53.0798 31.9087 53.8046 34.28 53.8046C36.6512 53.8046 37.7339 53.0798 39.103 52.1582C40.6331 51.1336 42.3645 49.9704 45.7066 49.9704C49.0487 49.9704 50.7802 51.1336 52.3103 52.1582C53.6793 53.0798 54.762 53.8046 57.1333 53.8046C59.5045 53.8046 60.5872 53.0798 61.9607 52.1582C63.4909 51.1336 65.2223 49.9704 68.5644 49.9704C71.9065 49.9704 73.6424 51.1336 75.1681 52.1582C76.5371 53.0798 77.6198 53.8046 79.9911 53.8046V58.8021ZM79.9911 62.7079C77.6198 62.7079 76.5371 61.9831 75.1681 61.0615C73.6379 60.0369 71.9065 58.8737 68.5644 58.8737C65.2223 58.8737 63.4909 60.0369 61.9607 61.0615C60.5917 61.9831 59.509 62.7079 57.1333 62.7079C54.7576 62.7079 53.6793 61.9831 52.3103 61.0615C50.7802 60.0369 49.0487 58.8737 45.7066 58.8737C42.3645 58.8737 40.6331 60.0369 39.103 61.0615C37.7339 61.9831 36.6512 62.7079 34.28 62.7079C31.9087 62.7079 30.826 61.9831 29.457 61.0615C27.9269 60.0369 26.1954 58.8737 22.8533 58.8737C19.5112 58.8737 17.7798 60.0369 16.2497 61.0615C14.8806 61.9831 13.7979 62.7079 11.4267 62.7079C9.05542 62.7079 7.97271 61.9831 6.60366 61.0615C5.07354 60.0369 3.34209 58.8737 0 58.8737V63.8711C2.37123 63.8711 3.45395 64.5959 4.823 65.5176C6.35311 66.5421 8.08456 67.7054 11.4267 67.7054C14.7687 67.7054 16.5002 66.5421 18.0303 65.5176C19.3994 64.5959 20.4821 63.8711 22.8533 63.8711C25.2245 63.8711 26.3073 64.5959 27.6763 65.5176C29.2064 66.5421 30.9379 67.7054 34.28 67.7054C37.6221 67.7054 39.3535 66.5421 40.8836 65.5176C42.2527 64.5959 43.3354 63.8711 45.7066 63.8711C48.0779 63.8711 49.1606 64.5959 50.5296 65.5176C52.0597 66.5421 53.7912 67.7054 57.1333 67.7054C60.4754 67.7054 62.2113 66.5421 63.7369 65.5176C65.106 64.5959 66.1887 63.8711 68.5599 63.8711C70.9312 63.8711 72.0139 64.5959 73.3874 65.5176C74.9175 66.5421 76.649 67.7054 79.9911 67.7054V62.7079ZM54.9902 28.9514C54.9902 37.2373 48.2747 43.9528 39.9888 43.9528C31.7029 43.9528 24.9874 37.2373 24.9874 28.9514C24.9874 20.6655 39.9888 0 39.9888 0C39.9888 0 54.9902 20.67 54.9902 28.9514ZM47.0712 22.9383H40.7047L43.2504 11.1403L32.9109 26.8397H39.2774L36.7317 38.6377L47.0712 22.9383Z"
-                                    fill="#fff"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 512 512">
+                                <path fill="#fff"
+                                    d="M333.7 21.92S347.8 45.41 344 57c-3.4 10.38-23.5 9.3-26 19.94c-1.9 8.45 7.2 21.49 12.5 28.16h6.8c7.1-11.21 12.6-21.78 14-34.94c7.9 8.26 10.4 21.29 1.1 34.94h8.4c8-9.54 24.2-30.9 21.2-44.69c-4.3-20.13-48.3-38.49-48.3-38.49M104 51.07c-17.5 0-29.44 4.94-35.49 14.01S63 84.07 63 92.07v12.03h18V92.07c0-8 .54-14.08 2.49-17.01s6.01-5.99 20.51-5.99h64c10 0 23 12.46 23 24.59V215.7h18v-28.6h103.3l1.6-18H209V93.66c0-23.05-19-42.59-41-42.59zM56 121.1v18h32v-18zm280.2 2l-14.3 158h44.2l-14.3-158zM72 155.1c-10 0-19.88 3.4-27.02 9.7C37.83 171.2 33 180.3 33 194.1v296h78v-296c0-13.7-4.8-22.9-12-29.3c-7.12-6.3-17-9.7-27-9.7m307.9 78l1.6 18H408c14.5 0 23.7 3.5 29.6 9.4c5.9 6 9.4 15.5 9.4 30.4v39.9c2.8-1.1 5.8-1.7 9-1.7s6.2.6 9 1.7v-39.9c0-17.9-4.5-32.8-14.6-43c-10.1-10.3-24.9-14.8-42.4-14.8zm-202.9 2v14h46v-14zm23.5 32c-29.7 0-55.8 14.7-71.5 37.3v16.7h142V303c-15.8-21.7-41.4-35.9-70.5-35.9m88.5 32v110h110v-110zm-160 40v14h142v-14zm327 8c-4 0-7 3-7 7s3 7 7 7s7-3 7-7s-3-7-7-7m-327 24v32.6c6.6 9.5 15 17.6 24.7 23.8L131 473.1v17h37.5v-17h-17.4l18.8-37.5c9.5 3.5 19.8 5.5 30.6 5.5s21.1-2 30.6-5.5l18.8 37.5h-17.4v17h64v-17h-26.4l-22.8-45.6c9.2-5.9 17.3-13.5 23.7-22.3v-34.1zm318 6.3v31.7h18v-31.7c-2.8 1.1-5.8 1.7-9 1.7s-6.2-.6-9-1.7m-116.3 49.7l49.6 63h41l-49.6-63zm64 0l49.6 63H479v-8.9l-43.3-54.1zm64 0l20.3 25.4v-25.4zM321 443.7v46.4h36.3z" />
                             </svg>
                         </div>
 
@@ -302,11 +375,9 @@ include 'includes/navbar.php';
                         </div>
                         <div class="rs-services-icon">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="68" viewBox="0 0 80 68"
-                                fill="none">
-                                <path
-                                    d="M79.9911 58.8021C76.649 58.8021 74.9175 57.6388 73.3874 56.6143C72.0183 55.6926 70.9356 54.9678 68.5599 54.9678C66.1842 54.9678 65.106 55.6926 63.7369 56.6143C62.2068 57.6388 60.4754 58.8021 57.1333 58.8021C53.7912 58.8021 52.0597 57.6388 50.5296 56.6143C49.1606 55.6926 48.0779 54.9678 45.7066 54.9678C43.3354 54.9678 42.2527 55.6926 40.8836 56.6143C39.3535 57.6388 37.6221 58.8021 34.28 58.8021C30.9379 58.8021 29.2064 57.6388 27.6763 56.6143C26.3073 55.6926 25.2245 54.9678 22.8533 54.9678C20.4821 54.9678 19.3994 55.6926 18.0303 56.6143C16.5002 57.6388 14.7687 58.8021 11.4267 58.8021C8.08456 58.8021 6.35311 57.6388 4.823 56.6143C3.45395 55.6926 2.37123 54.9678 0 54.9678V49.9704C3.34209 49.9704 5.07354 51.1336 6.60366 52.1582C7.97271 53.0798 9.05542 53.8046 11.4267 53.8046C13.7979 53.8046 14.8806 53.0798 16.2497 52.1582C17.7798 51.1336 19.5112 49.9704 22.8533 49.9704C26.1954 49.9704 27.9269 51.1336 29.457 52.1582C30.826 53.0798 31.9087 53.8046 34.28 53.8046C36.6512 53.8046 37.7339 53.0798 39.103 52.1582C40.6331 51.1336 42.3645 49.9704 45.7066 49.9704C49.0487 49.9704 50.7802 51.1336 52.3103 52.1582C53.6793 53.0798 54.762 53.8046 57.1333 53.8046C59.5045 53.8046 60.5872 53.0798 61.9607 52.1582C63.4909 51.1336 65.2223 49.9704 68.5644 49.9704C71.9065 49.9704 73.6424 51.1336 75.1681 52.1582C76.5371 53.0798 77.6198 53.8046 79.9911 53.8046V58.8021ZM79.9911 62.7079C77.6198 62.7079 76.5371 61.9831 75.1681 61.0615C73.6379 60.0369 71.9065 58.8737 68.5644 58.8737C65.2223 58.8737 63.4909 60.0369 61.9607 61.0615C60.5917 61.9831 59.509 62.7079 57.1333 62.7079C54.7576 62.7079 53.6793 61.9831 52.3103 61.0615C50.7802 60.0369 49.0487 58.8737 45.7066 58.8737C42.3645 58.8737 40.6331 60.0369 39.103 61.0615C37.7339 61.9831 36.6512 62.7079 34.28 62.7079C31.9087 62.7079 30.826 61.9831 29.457 61.0615C27.9269 60.0369 26.1954 58.8737 22.8533 58.8737C19.5112 58.8737 17.7798 60.0369 16.2497 61.0615C14.8806 61.9831 13.7979 62.7079 11.4267 62.7079C9.05542 62.7079 7.97271 61.9831 6.60366 61.0615C5.07354 60.0369 3.34209 58.8737 0 58.8737V63.8711C2.37123 63.8711 3.45395 64.5959 4.823 65.5176C6.35311 66.5421 8.08456 67.7054 11.4267 67.7054C14.7687 67.7054 16.5002 66.5421 18.0303 65.5176C19.3994 64.5959 20.4821 63.8711 22.8533 63.8711C25.2245 63.8711 26.3073 64.5959 27.6763 65.5176C29.2064 66.5421 30.9379 67.7054 34.28 67.7054C37.6221 67.7054 39.3535 66.5421 40.8836 65.5176C42.2527 64.5959 43.3354 63.8711 45.7066 63.8711C48.0779 63.8711 49.1606 64.5959 50.5296 65.5176C52.0597 66.5421 53.7912 67.7054 57.1333 67.7054C60.4754 67.7054 62.2113 66.5421 63.7369 65.5176C65.106 64.5959 66.1887 63.8711 68.5599 63.8711C70.9312 63.8711 72.0139 64.5959 73.3874 65.5176C74.9175 66.5421 76.649 67.7054 79.9911 67.7054V62.7079ZM54.9902 28.9514C54.9902 37.2373 48.2747 43.9528 39.9888 43.9528C31.7029 43.9528 24.9874 37.2373 24.9874 28.9514C24.9874 20.6655 39.9888 0 39.9888 0C39.9888 0 54.9902 20.67 54.9902 28.9514ZM47.0712 22.9383H40.7047L43.2504 11.1403L32.9109 26.8397H39.2774L36.7317 38.6377L47.0712 22.9383Z"
-                                    fill="#fff"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 640 512">
+                                <path fill="#fff"
+                                    d="m323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5L373 188.8l139 128V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2m22.8 124.4l-51.7 40.2c-31.5 24.6-77.2 18.2-100.8-14.2c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48v224h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8zM16 128c-8.8 0-16 7.2-16 16v208c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V128zm32 192a16 16 0 1 1 0 32a16 16 0 1 1 0-32m496-192v224c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16zm32 208a16 16 0 1 1 32 0a16 16 0 1 1-32 0" />
                             </svg>
                         </div>
                         <p class="descrip-text">Strategic partnership ensuring a long-term, secure supply chain for
@@ -317,14 +388,13 @@ include 'includes/navbar.php';
                 <div class="custom-col-5">
                     <div class="rs-services-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                         <div class="rs-services-top">
-                            <h5 class="rs-services-title underline ">   99.9%+ Purity</h5>
+                            <h5 class="rs-services-title underline "> 99.9%+ Purity</h5>
                         </div>
                         <div class="rs-services-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="68" viewBox="0 0 80 68"
-                                fill="none">
-                                <path
-                                    d="M79.9911 58.8021C76.649 58.8021 74.9175 57.6388 73.3874 56.6143C72.0183 55.6926 70.9356 54.9678 68.5599 54.9678C66.1842 54.9678 65.106 55.6926 63.7369 56.6143C62.2068 57.6388 60.4754 58.8021 57.1333 58.8021C53.7912 58.8021 52.0597 57.6388 50.5296 56.6143C49.1606 55.6926 48.0779 54.9678 45.7066 54.9678C43.3354 54.9678 42.2527 55.6926 40.8836 56.6143C39.3535 57.6388 37.6221 58.8021 34.28 58.8021C30.9379 58.8021 29.2064 57.6388 27.6763 56.6143C26.3073 55.6926 25.2245 54.9678 22.8533 54.9678C20.4821 54.9678 19.3994 55.6926 18.0303 56.6143C16.5002 57.6388 14.7687 58.8021 11.4267 58.8021C8.08456 58.8021 6.35311 57.6388 4.823 56.6143C3.45395 55.6926 2.37123 54.9678 0 54.9678V49.9704C3.34209 49.9704 5.07354 51.1336 6.60366 52.1582C7.97271 53.0798 9.05542 53.8046 11.4267 53.8046C13.7979 53.8046 14.8806 53.0798 16.2497 52.1582C17.7798 51.1336 19.5112 49.9704 22.8533 49.9704C26.1954 49.9704 27.9269 51.1336 29.457 52.1582C30.826 53.0798 31.9087 53.8046 34.28 53.8046C36.6512 53.8046 37.7339 53.0798 39.103 52.1582C40.6331 51.1336 42.3645 49.9704 45.7066 49.9704C49.0487 49.9704 50.7802 51.1336 52.3103 52.1582C53.6793 53.0798 54.762 53.8046 57.1333 53.8046C59.5045 53.8046 60.5872 53.0798 61.9607 52.1582C63.4909 51.1336 65.2223 49.9704 68.5644 49.9704C71.9065 49.9704 73.6424 51.1336 75.1681 52.1582C76.5371 53.0798 77.6198 53.8046 79.9911 53.8046V58.8021ZM79.9911 62.7079C77.6198 62.7079 76.5371 61.9831 75.1681 61.0615C73.6379 60.0369 71.9065 58.8737 68.5644 58.8737C65.2223 58.8737 63.4909 60.0369 61.9607 61.0615C60.5917 61.9831 59.509 62.7079 57.1333 62.7079C54.7576 62.7079 53.6793 61.9831 52.3103 61.0615C50.7802 60.0369 49.0487 58.8737 45.7066 58.8737C42.3645 58.8737 40.6331 60.0369 39.103 61.0615C37.7339 61.9831 36.6512 62.7079 34.28 62.7079C31.9087 62.7079 30.826 61.9831 29.457 61.0615C27.9269 60.0369 26.1954 58.8737 22.8533 58.8737C19.5112 58.8737 17.7798 60.0369 16.2497 61.0615C14.8806 61.9831 13.7979 62.7079 11.4267 62.7079C9.05542 62.7079 7.97271 61.9831 6.60366 61.0615C5.07354 60.0369 3.34209 58.8737 0 58.8737V63.8711C2.37123 63.8711 3.45395 64.5959 4.823 65.5176C6.35311 66.5421 8.08456 67.7054 11.4267 67.7054C14.7687 67.7054 16.5002 66.5421 18.0303 65.5176C19.3994 64.5959 20.4821 63.8711 22.8533 63.8711C25.2245 63.8711 26.3073 64.5959 27.6763 65.5176C29.2064 66.5421 30.9379 67.7054 34.28 67.7054C37.6221 67.7054 39.3535 66.5421 40.8836 65.5176C42.2527 64.5959 43.3354 63.8711 45.7066 63.8711C48.0779 63.8711 49.1606 64.5959 50.5296 65.5176C52.0597 66.5421 53.7912 67.7054 57.1333 67.7054C60.4754 67.7054 62.2113 66.5421 63.7369 65.5176C65.106 64.5959 66.1887 63.8711 68.5599 63.8711C70.9312 63.8711 72.0139 64.5959 73.3874 65.5176C74.9175 66.5421 76.649 67.7054 79.9911 67.7054V62.7079ZM54.9902 28.9514C54.9902 37.2373 48.2747 43.9528 39.9888 43.9528C31.7029 43.9528 24.9874 37.2373 24.9874 28.9514C24.9874 20.6655 39.9888 0 39.9888 0C39.9888 0 54.9902 20.67 54.9902 28.9514ZM47.0712 22.9383H40.7047L43.2504 11.1403L32.9109 26.8397H39.2774L36.7317 38.6377L47.0712 22.9383Z"
-                                    fill="#fff"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                                <path fill="#fff" fill-rule="evenodd"
+                                    d="M3.378 5.082C3 5.62 3 7.22 3 10.417v1.574c0 5.638 4.239 8.375 6.899 9.536c.721.315 1.082.473 2.101.473c1.02 0 1.38-.158 2.101-.473C16.761 20.365 21 17.63 21 11.991v-1.574c0-3.198 0-4.797-.378-5.335c-.377-.537-1.88-1.052-4.887-2.081l-.573-.196C13.595 2.268 12.812 2 12 2s-1.595.268-3.162.805L8.265 3c-3.007 1.03-4.51 1.545-4.887 2.082M15.06 10.5a.75.75 0 0 0-1.12-.999l-3.011 3.374l-.87-.974a.75.75 0 0 0-1.118 1l1.428 1.6a.75.75 0 0 0 1.119 0z"
+                                    clip-rule="evenodd" />
                             </svg>
                         </div>
                         <p class="descrip-text">High-precision refining producing premium antimony metal and oxides
@@ -338,11 +408,13 @@ include 'includes/navbar.php';
                             <h5 class="rs-services-title underline ">Defense &amp; Aero</h5>
                         </div>
                         <div class="rs-services-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="68" viewBox="0 0 80 68"
-                                fill="none">
-                                <path
-                                    d="M79.9911 58.8021C76.649 58.8021 74.9175 57.6388 73.3874 56.6143C72.0183 55.6926 70.9356 54.9678 68.5599 54.9678C66.1842 54.9678 65.106 55.6926 63.7369 56.6143C62.2068 57.6388 60.4754 58.8021 57.1333 58.8021C53.7912 58.8021 52.0597 57.6388 50.5296 56.6143C49.1606 55.6926 48.0779 54.9678 45.7066 54.9678C43.3354 54.9678 42.2527 55.6926 40.8836 56.6143C39.3535 57.6388 37.6221 58.8021 34.28 58.8021C30.9379 58.8021 29.2064 57.6388 27.6763 56.6143C26.3073 55.6926 25.2245 54.9678 22.8533 54.9678C20.4821 54.9678 19.3994 55.6926 18.0303 56.6143C16.5002 57.6388 14.7687 58.8021 11.4267 58.8021C8.08456 58.8021 6.35311 57.6388 4.823 56.6143C3.45395 55.6926 2.37123 54.9678 0 54.9678V49.9704C3.34209 49.9704 5.07354 51.1336 6.60366 52.1582C7.97271 53.0798 9.05542 53.8046 11.4267 53.8046C13.7979 53.8046 14.8806 53.0798 16.2497 52.1582C17.7798 51.1336 19.5112 49.9704 22.8533 49.9704C26.1954 49.9704 27.9269 51.1336 29.457 52.1582C30.826 53.0798 31.9087 53.8046 34.28 53.8046C36.6512 53.8046 37.7339 53.0798 39.103 52.1582C40.6331 51.1336 42.3645 49.9704 45.7066 49.9704C49.0487 49.9704 50.7802 51.1336 52.3103 52.1582C53.6793 53.0798 54.762 53.8046 57.1333 53.8046C59.5045 53.8046 60.5872 53.0798 61.9607 52.1582C63.4909 51.1336 65.2223 49.9704 68.5644 49.9704C71.9065 49.9704 73.6424 51.1336 75.1681 52.1582C76.5371 53.0798 77.6198 53.8046 79.9911 53.8046V58.8021ZM79.9911 62.7079C77.6198 62.7079 76.5371 61.9831 75.1681 61.0615C73.6379 60.0369 71.9065 58.8737 68.5644 58.8737C65.2223 58.8737 63.4909 60.0369 61.9607 61.0615C60.5917 61.9831 59.509 62.7079 57.1333 62.7079C54.7576 62.7079 53.6793 61.9831 52.3103 61.0615C50.7802 60.0369 49.0487 58.8737 45.7066 58.8737C42.3645 58.8737 40.6331 60.0369 39.103 61.0615C37.7339 61.9831 36.6512 62.7079 34.28 62.7079C31.9087 62.7079 30.826 61.9831 29.457 61.0615C27.9269 60.0369 26.1954 58.8737 22.8533 58.8737C19.5112 58.8737 17.7798 60.0369 16.2497 61.0615C14.8806 61.9831 13.7979 62.7079 11.4267 62.7079C9.05542 62.7079 7.97271 61.9831 6.60366 61.0615C5.07354 60.0369 3.34209 58.8737 0 58.8737V63.8711C2.37123 63.8711 3.45395 64.5959 4.823 65.5176C6.35311 66.5421 8.08456 67.7054 11.4267 67.7054C14.7687 67.7054 16.5002 66.5421 18.0303 65.5176C19.3994 64.5959 20.4821 63.8711 22.8533 63.8711C25.2245 63.8711 26.3073 64.5959 27.6763 65.5176C29.2064 66.5421 30.9379 67.7054 34.28 67.7054C37.6221 67.7054 39.3535 66.5421 40.8836 65.5176C42.2527 64.5959 43.3354 63.8711 45.7066 63.8711C48.0779 63.8711 49.1606 64.5959 50.5296 65.5176C52.0597 66.5421 53.7912 67.7054 57.1333 67.7054C60.4754 67.7054 62.2113 66.5421 63.7369 65.5176C65.106 64.5959 66.1887 63.8711 68.5599 63.8711C70.9312 63.8711 72.0139 64.5959 73.3874 65.5176C74.9175 66.5421 76.649 67.7054 79.9911 67.7054V62.7079ZM54.9902 28.9514C54.9902 37.2373 48.2747 43.9528 39.9888 43.9528C31.7029 43.9528 24.9874 37.2373 24.9874 28.9514C24.9874 20.6655 39.9888 0 39.9888 0C39.9888 0 54.9902 20.67 54.9902 28.9514ZM47.0712 22.9383H40.7047L43.2504 11.1403L32.9109 26.8397H39.2774L36.7317 38.6377L47.0712 22.9383Z"
-                                    fill="#fff"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 512 512">
+                                <path fill="#fff"
+                                    d="M328.85 156.79a26.69 26.69 0 1 0 18.88 7.81a26.6 26.6 0 0 0-18.88-7.81" />
+                                <path fill="#fff"
+                                    d="M477.44 50.06a.3.3 0 0 1 0-.09a20.4 20.4 0 0 0-15.13-15.3c-29.8-7.27-76.68.48-128.63 21.28c-52.36 21-101.42 52-134.58 85.22A321 321 0 0 0 169.55 175c-22.33-1-42 2.18-58.57 9.41c-57.74 25.41-74.23 90.44-78.62 117.14a25 25 0 0 0 27.19 29h.13l64.32-7.02c.08.82.17 1.57.24 2.26a34.36 34.36 0 0 0 9.9 20.72l31.39 31.41a34.27 34.27 0 0 0 20.71 9.91l2.15.23l-7 64.24v.13A25 25 0 0 0 206 480a25 25 0 0 0 4.15-.34C237 475.34 302 459.05 327.34 401c7.17-16.46 10.34-36.05 9.45-58.34a315 315 0 0 0 33.95-29.55c33.43-33.26 64.53-81.92 85.31-133.52c20.69-51.36 28.48-98.59 21.39-129.53M370.38 224.94a58.77 58.77 0 1 1 0-83.07a58.3 58.3 0 0 1 0 83.07" />
+                                <path fill="#fff"
+                                    d="M161.93 386.44a16 16 0 0 0-11 2.67c-6.39 4.37-12.81 8.69-19.29 12.9c-13.11 8.52-28.79-6.44-21-20l12.15-21a16 16 0 0 0-15.16-24.91A61.25 61.25 0 0 0 72 353.56c-3.66 3.67-14.79 14.81-20.78 57.26A358 358 0 0 0 48 447.59A16 16 0 0 0 64 464h.4a360 360 0 0 0 36.8-3.2c42.47-6 53.61-17.14 57.27-20.8a60.5 60.5 0 0 0 17.39-35.74a16 16 0 0 0-13.93-17.82" />
                             </svg>
                         </div>
                         <p class="descrip-text">Providing essential materials for ammunition, batteries, and flame
@@ -356,11 +428,12 @@ include 'includes/navbar.php';
                             <h5 class="rs-services-title underline ">Vs. China Lead</h5>
                         </div>
                         <div class="rs-services-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="68" viewBox="0 0 80 68"
-                                fill="none">
-                                <path
-                                    d="M79.9911 58.8021C76.649 58.8021 74.9175 57.6388 73.3874 56.6143C72.0183 55.6926 70.9356 54.9678 68.5599 54.9678C66.1842 54.9678 65.106 55.6926 63.7369 56.6143C62.2068 57.6388 60.4754 58.8021 57.1333 58.8021C53.7912 58.8021 52.0597 57.6388 50.5296 56.6143C49.1606 55.6926 48.0779 54.9678 45.7066 54.9678C43.3354 54.9678 42.2527 55.6926 40.8836 56.6143C39.3535 57.6388 37.6221 58.8021 34.28 58.8021C30.9379 58.8021 29.2064 57.6388 27.6763 56.6143C26.3073 55.6926 25.2245 54.9678 22.8533 54.9678C20.4821 54.9678 19.3994 55.6926 18.0303 56.6143C16.5002 57.6388 14.7687 58.8021 11.4267 58.8021C8.08456 58.8021 6.35311 57.6388 4.823 56.6143C3.45395 55.6926 2.37123 54.9678 0 54.9678V49.9704C3.34209 49.9704 5.07354 51.1336 6.60366 52.1582C7.97271 53.0798 9.05542 53.8046 11.4267 53.8046C13.7979 53.8046 14.8806 53.0798 16.2497 52.1582C17.7798 51.1336 19.5112 49.9704 22.8533 49.9704C26.1954 49.9704 27.9269 51.1336 29.457 52.1582C30.826 53.0798 31.9087 53.8046 34.28 53.8046C36.6512 53.8046 37.7339 53.0798 39.103 52.1582C40.6331 51.1336 42.3645 49.9704 45.7066 49.9704C49.0487 49.9704 50.7802 51.1336 52.3103 52.1582C53.6793 53.0798 54.762 53.8046 57.1333 53.8046C59.5045 53.8046 60.5872 53.0798 61.9607 52.1582C63.4909 51.1336 65.2223 49.9704 68.5644 49.9704C71.9065 49.9704 73.6424 51.1336 75.1681 52.1582C76.5371 53.0798 77.6198 53.8046 79.9911 53.8046V58.8021ZM79.9911 62.7079C77.6198 62.7079 76.5371 61.9831 75.1681 61.0615C73.6379 60.0369 71.9065 58.8737 68.5644 58.8737C65.2223 58.8737 63.4909 60.0369 61.9607 61.0615C60.5917 61.9831 59.509 62.7079 57.1333 62.7079C54.7576 62.7079 53.6793 61.9831 52.3103 61.0615C50.7802 60.0369 49.0487 58.8737 45.7066 58.8737C42.3645 58.8737 40.6331 60.0369 39.103 61.0615C37.7339 61.9831 36.6512 62.7079 34.28 62.7079C31.9087 62.7079 30.826 61.9831 29.457 61.0615C27.9269 60.0369 26.1954 58.8737 22.8533 58.8737C19.5112 58.8737 17.7798 60.0369 16.2497 61.0615C14.8806 61.9831 13.7979 62.7079 11.4267 62.7079C9.05542 62.7079 7.97271 61.9831 6.60366 61.0615C5.07354 60.0369 3.34209 58.8737 0 58.8737V63.8711C2.37123 63.8711 3.45395 64.5959 4.823 65.5176C6.35311 66.5421 8.08456 67.7054 11.4267 67.7054C14.7687 67.7054 16.5002 66.5421 18.0303 65.5176C19.3994 64.5959 20.4821 63.8711 22.8533 63.8711C25.2245 63.8711 26.3073 64.5959 27.6763 65.5176C29.2064 66.5421 30.9379 67.7054 34.28 67.7054C37.6221 67.7054 39.3535 66.5421 40.8836 65.5176C42.2527 64.5959 43.3354 63.8711 45.7066 63.8711C48.0779 63.8711 49.1606 64.5959 50.5296 65.5176C52.0597 66.5421 53.7912 67.7054 57.1333 67.7054C60.4754 67.7054 62.2113 66.5421 63.7369 65.5176C65.106 64.5959 66.1887 63.8711 68.5599 63.8711C70.9312 63.8711 72.0139 64.5959 73.3874 65.5176C74.9175 66.5421 76.649 67.7054 79.9911 67.7054V62.7079ZM54.9902 28.9514C54.9902 37.2373 48.2747 43.9528 39.9888 43.9528C31.7029 43.9528 24.9874 37.2373 24.9874 28.9514C24.9874 20.6655 39.9888 0 39.9888 0C39.9888 0 54.9902 20.67 54.9902 28.9514ZM47.0712 22.9383H40.7047L43.2504 11.1403L32.9109 26.8397H39.2774L36.7317 38.6377L47.0712 22.9383Z"
-                                    fill="#fff"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2">
+                                    <path d="m3 17l6-6l4 4l8-8" />
+                                    <path d="M14 7h7v7" />
+                                </g>
                             </svg>
                         </div>
                         <p class="descrip-text">A direct strategic response to reclaim domestic control over the
@@ -398,7 +471,7 @@ include 'includes/navbar.php';
                         </h2>
                     </div>
                 </div>
-            
+
             </div>
             <div class="row g-5 process-counts">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -610,7 +683,8 @@ include 'includes/navbar.php';
                                 </div>
                                 <div class="rs-why-choose-content">
                                     <h6 class="rs-why-choose-title">Texas (U.S.)</h6>
-                                    <p class="descrip">Defense, domestic stockpiling, and secure mineral supply
+                                    <p class="descrip opacity-75">Defense, domestic stockpiling, and secure mineral
+                                        supply
                                         chain.</p>
                                 </div>
                             </div>
@@ -627,7 +701,8 @@ include 'includes/navbar.php';
                                 </div>
                                 <div class="rs-why-choose-content">
                                     <h6 class="rs-why-choose-title">Saudi Arabia</h6>
-                                    <p class="descrip">Energy-advantaged refining and global distribution network.
+                                    <p class="descrip opacity-75">Energy-advantaged refining and global distribution
+                                        network.
                                     </p>
                                 </div>
                             </div>
@@ -643,8 +718,9 @@ include 'includes/navbar.php';
                                 </div>
                                 <div class="rs-why-choose-content">
                                     <h6 class="rs-why-choose-title">Built for Scalability</h6>
-                                    <p class="descrip">Built for redundancy and geopolitical resilience. Antimony is
-                                        the first vertical — the platform scales.</p>
+                                    <p class="descrip opacity-75">Built for redundancy and geopolitical resilience.
+                                        Antimony is the first vertical — the platform scales.
+                                    </p>
                                 </div>
                             </div>
 
@@ -654,7 +730,7 @@ include 'includes/navbar.php';
             </div>
         </div>
         <div class="rs-why-choose-btn-wrapper" data-background="assets/images/world-map-img.avif">
-           
+
         </div>
     </section>
 
@@ -684,9 +760,8 @@ include 'includes/navbar.php';
 
                 <div class="col-lg-6 wow fadeInLeft">
                     <div class="image-wrapper position-relative">
-                        <img src="assets/images/hero-img.jpg" alt="Singta Revenue Strategy"
-                            class="img-fluid rounded-4 shadow-lg"
-                     >
+                        <img src="assets/images/hero-img.jpg" alt="SINGTA Revenue Strategy"
+                            class="img-fluid rounded-4 shadow-lg">
 
                         <div class="position-absolute top-0 start-0 m-4">
                             <span class="badge bg-danger p-2 px-3 shadow">Strategic Infrastructure</span>
@@ -795,7 +870,7 @@ include 'includes/navbar.php';
             <div class="row g-4 justify-content-center">
 
                 <div class="col-xl-3 col-md-6">
-                    <div class="stat-box p-5 border border-secondary rounded-0 h-100 transition-all"
+                    <div class="stat-box p-5 border border-secondary rounded-4 h-100 transition-all"
                         style="background: #111;">
                         <div class="d-flex justify-content-between align-items-start mb-4">
                             <h2 class="display-4 fw-bold m-0" style="color: #B71C1C;">$2.5B+</h2>
@@ -808,7 +883,7 @@ include 'includes/navbar.php';
                 </div>
 
                 <div class="col-xl-3 col-md-6">
-                    <div class="stat-box p-5 border border-secondary rounded-0 h-100 transition-all"
+                    <div class="stat-box p-5 border border-secondary rounded-4 h-100 transition-all"
                         style="background: #111;">
                         <div class="d-flex justify-content-between align-items-start mb-4">
                             <h2 class="display-4 fw-bold m-0" style="color: #B71C1C;">22</h2>
@@ -821,7 +896,7 @@ include 'includes/navbar.php';
                 </div>
 
                 <div class="col-xl-3 col-md-6">
-                    <div class="stat-box p-5 border border-secondary rounded-0 h-100 transition-all"
+                    <div class="stat-box p-5 border border-secondary rounded-4 h-100 transition-all"
                         style="background: #111;">
                         <div class="d-flex justify-content-between align-items-start mb-4">
                             <h2 class="display-4 fw-bold m-0" style="color: #B71C1C;">44+</h2>
@@ -834,7 +909,7 @@ include 'includes/navbar.php';
                 </div>
 
                 <div class="col-xl-3 col-md-6">
-                    <div class="stat-box p-5 border border-secondary rounded-0 h-100 transition-all"
+                    <div class="stat-box p-5 border border-secondary rounded-4 h-100 transition-all"
                         style="background: #111;">
                         <div class="d-flex justify-content-between align-items-start mb-4">
                             <h2 class="display-4 fw-bold m-0" style="color: #B71C1C;">100%</h2>
@@ -855,7 +930,7 @@ include 'includes/navbar.php';
                 <div class="col-lg-6 wow fadeInLeft">
                     <div class="position-relative">
                         <img src="assets/images/hero-img.jpg" alt="Critical Minerals Infrastructure"
-                            class="img-fluid rounded-0 shadow-lg border-start border-danger border-5">
+                            class="img-fluid rounded-4 shadow-lg border-start border-danger border-5">
 
                         <div class="position-absolute bottom-0 start-0 bg-dark text-white p-4 m-3 d-none d-md-block">
                             <h6 class="m-0 fw-bold text-white"><i
@@ -871,19 +946,19 @@ include 'includes/navbar.php';
                         <h2 class="display-6 fw-bold text-white mt-2 mb-4">Strategic Benefits</h2>
 
                         <div class="benefit-list">
-                            <div class="d-flex align-items-center p-3 mb-20 border-bottom h-transition"
+                            <div class="d-flex align-items-center p-3 mb-20 benefits-items h-transition"
                                 style="cursor: default;">
                                 <div class=" strageic-icon icon-circle bg-light p-3 rounded-circle me-4">
                                     <i class="fa-solid fa-truck-ramp-box text-danger fs-4"></i>
                                 </div>
                                 <div>
                                     <h6 class="fw-bold mb-1 text-white">Feedstock Supply</h6>
-                                    <p class="small text-white mb-0">Long-term supply for Singta's refineries
+                                    <p class="small text-white mb-0">Long-term supply for SINGTA'S refineries
                                         ensures 100% uptime.</p>
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-center p-3 mb-20 border-bottom h-transition">
+                            <div class="d-flex align-items-center p-3 mb-20 benefits-items h-transition">
                                 <div class=" strageic-icon icon-circle bg-light p-3 rounded-circle me-4">
                                     <i class="fa-solid fa-hand-holding-dollar text-danger fs-4"></i>
                                 </div>
@@ -894,7 +969,7 @@ include 'includes/navbar.php';
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-center p-3 mb-20 border-bottom h-transition">
+                            <div class="d-flex align-items-center p-3 mb-20 benefits-items h-transition">
                                 <div class=" strageic-icon icon-circle bg-light p-3 rounded-circle me-4">
                                     <i class="fa-solid fa-chart-line-up text-danger fs-4"></i>
                                 </div>
@@ -929,7 +1004,7 @@ include 'includes/navbar.php';
         <section class="rs-cta-section py-100 position-relative overflow-hidden rounded-5  mt-125 mb-125  "
             style="background: url('assets/images/hero-img.jpg') no-repeat center center / cover;">
 
-            <div class="cta-overlay position-absolute top-0 start-0 w-100 h-100"
+            <div class="cta-overlay position-absolute top-0 start-0 w-100 h-100 px-10"
                 style="background: rgba(26, 26, 26, 0.85); z-index: 1;"></div>
 
             <div class=" position-relative" style="z-index: 2;">
