@@ -6,7 +6,8 @@
                 <div class="row g-5">
                     <div class="col-xxl-4 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <div class="rs-footer-widget footer-2-col-1">
-                            <a href="index.php"><img class='footer-logo' src="assets/images/logo/logo.webp" alt="logo"></a>
+                            <a href="index.php"><img class='footer-logo' src="assets/images/logo/logo.webp"
+                                    alt="logo"></a>
 
                             <div class="rs-footer-widget-content">
                                 <p class="rs-footer-widget-description">
@@ -46,8 +47,9 @@
                                         </div>
                                     </div>
                                     <h5 class="rs-footer-widget-title mt-4">Headquarters</h5>
-                                    <p class="small text-white opacity-50">Small eNew York, NY 10282
-                                    United States</p>
+                                    <p class="small text-white opacity-75  ">200 West St.
+                                        New York, NY 10282
+                                        United States</p>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +66,7 @@
                                         </span>
                                     </div>
                                 </div>
-                                <h5 class="rs-footer-widget-title mt-4">Follow Singta</h5>
+                                <h5 class="rs-footer-widget-title mt-4">Follow SINGTA</h5>
                                 <div class="rs-footer-widget-social">
                                     <div class="rs-theme-social has-theme-red">
                                         <a href="#"><i class="ri-linkedin-fill"></i></a>
@@ -83,7 +85,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="rs-footer-copyright has-theme-red ">
-                            <p class="underline">© <span id="year">2026</span> Singta Resources. All Rights Reserved.
+                            <p class="underline">© <span id="year">2026</span> SINGTA Resources. All Rights Reserved.
                             </p>
                         </div>
 
@@ -91,8 +93,8 @@
                     </div>
 
                     <div class="col-lg-6 d-flex align-items-center justify-content-end gap-4">
-                        <li class='mt-10 list-unstyled text-white       '><a class='' href="#">Privacy Policy</a></li>
-                        <li class='mt-10 list-unstyled text-white       '><a class='' href="#">Terms of Use</a></li>
+                        <li class='mt-10 list-unstyled text-white       '><a class='' href="privacy-policy.php">Privacy Policy</a></li>
+                        <li class='mt-10 list-unstyled text-white       '><a class='' href="terms-and-condition.php">Terms of Use</a></li>
                     </div>
                 </div>
             </div>
