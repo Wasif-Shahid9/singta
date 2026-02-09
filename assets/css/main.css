@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&amp;family=Space+Grotesk:wght@300..700&amp;display=swap");
 
 .offcanvas-overlay,
@@ -1330,9 +1329,9 @@ only screen and (max-width: 575px) {
   border-radius: 12px;
 }
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .rs-btn {
- 
+
     padding: 7px 22px;
     font-size: 14px;
   }
@@ -3112,12 +3111,12 @@ only screen and (max-width: 575px) {
 .offcanvas-wrapper {
   position: relative;
   height: 100%;
-  padding: 40px 40px;
+  /* padding: 40px 40px; */
 }
 
 @media only screen and (max-width: 575px) {
   .offcanvas-wrapper {
-    padding: 30px 30px;
+    /* padding: 30px 30px; */
   }
 }
 
@@ -8508,12 +8507,13 @@ html.lenis body {
 }
 
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .rs-header-logo img {
     max-width: 140px;
   }
-  
+
 }
+
 .rs-header-search-wrapper {
   position: relative;
 }
@@ -9024,30 +9024,37 @@ html.lenis body {
 }
 
 .rs-banner-two .rs-banner-wrapper {
-  padding: 207px 0 345px;
+  padding: 207px 0 230px;
 }
 
 @media only screen and (max-width: 1366px) {
   .rs-banner-two .rs-banner-wrapper {
-    padding: 230px 0 290px;
+    padding: 230px 0 230px;
   }
 }
 
 @media only screen and (max-width: 1199px) {
   .rs-banner-two .rs-banner-wrapper {
-    padding: 210px 0 270px;
+    padding: 210px 0 230px;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .rs-banner-two .rs-banner-wrapper {
-    padding: 170px 0 250px;
+    padding: 170px 0 230px;
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media (min-width : 576px) and (max-width: 767px) {
   .rs-banner-two .rs-banner-wrapper {
     padding: 150px 0 230px;
+  }
+}
+
+
+@media (min-width : 280px) and (max-width: 575px) {
+  .rs-banner-two .rs-banner-wrapper {
+    padding: 150px 0 135px;
   }
 }
 
@@ -9079,6 +9086,13 @@ html.lenis body {
 @media only screen and (max-width: 767px) {
   .rs-banner-two .rs-banner-title {
     font-size: 45px;
+  }
+}
+
+
+@media (min-width: 280px) and (max-width: 576px) {
+  .rs-banner-two .rs-banner-title {
+    font-size: 33px;
   }
 }
 
@@ -14843,7 +14857,7 @@ only screen and (max-width: 575px) {
 
 .rs-footer-two .rs-footer-widget-title {
   color: var(--rs-white);
-  margin-bottom: 25px;
+  margin-bottom: 18px;
 }
 
 .rs-footer-two .rs-footer-widget-meta p {
@@ -16543,6 +16557,37 @@ only screen and (max-width: 575px) {
   position: relative;
 }
 
+/* Parent row ko full height ensure karne ke liye */
+.rs-about-eight .row {
+  display: flex;
+  align-items: stretch;
+  /* Ye ensures karta hai ke dono columns barabar hon */
+}
+
+.rs-about-thumb-wrapper {
+  position: relative;
+  height: 100%;
+  /* Content ki height lega */
+  min-height: 300px;
+  /* Mobile par jab stack ho to gayab na ho */
+}
+
+.rs-about-thumb.img-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rs-about-thumb.img-one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Image ko crop karke adjust karega stretch nahi karega */
+  object-position: center;
+}
+
 .rs-about-eight .rs-about-thumb-wrapper {
   position: relative;
   /* margin-bottom: 120px; */
@@ -16550,9 +16595,9 @@ only screen and (max-width: 575px) {
 
 @media only screen and (max-width: 1600px) {
   .rs-about-eight .rs-about-thumb-wrapper {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px;
     position: sticky;
-    top: 110px;
+    top: 110px; */
   }
 }
 
@@ -20125,7 +20170,9 @@ only screen and (max-width: 575px) {
 }
 
 .rs-team-one .rs-team-designation {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000e6 !important;
 }
 
 .rs-team-one .rs-team-social {
@@ -21382,17 +21429,18 @@ only screen and (max-width: 575px) {
 }
 
 .rs-why-choose-one .rs-why-choose-icon {
-  width: 50px;
-  height: 50px;
+  width: 66px;
+  height: 66px;
   background: var(--rs-theme-blue);
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
+  border-radius: 4px;
 }
 
 .rs-why-choose-one .rs-why-choose-icon svg {
-  width: 30px;
+  width: 40px;
 }
 
 .rs-why-choose-one .rs-why-choose-icon.has-white svg path {
@@ -21469,7 +21517,7 @@ only screen and (max-width: 575px) {
     position: relative;
     top: unset;
     margin-bottom: 30px;
-    margin-inline-start: 70px;
+    margin-inline-start: 0;
   }
 }
 
@@ -21882,11 +21930,13 @@ only screen and (max-width: 575px) {
 
 .rs-why-choose-three .descrip {
   color: var(--rs-white);
+  width: 90%;
+  font-size: 16px !important;
 }
 
 .rs-why-choose-three .rs-why-choose-icon svg {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
 .rs-why-choose-three .rs-why-choose-content-item:not(:last-child) {
@@ -23130,7 +23180,7 @@ only screen and (max-width: 575px) {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   position: relative;
-  border-radius: 2px;
+  border-radius: 12px;
   z-index: 1;
   border: 1px solid #b9b9b9;
   height: 100%;
@@ -23149,6 +23199,7 @@ only screen and (max-width: 575px) {
   }
 }
 
+/* 
 .rs-services-seven .rs-services-item::before {
   position: absolute;
   content: "";
@@ -23162,7 +23213,7 @@ only screen and (max-width: 575px) {
   transition: all 0.5s ease-in-out;
   border-radius: 0 0 2px 2px;
   z-index: 1;
-}
+} */
 
 .rs-services-seven .rs-services-item:hover .rs-services-icon-btn {
   opacity: 1;
@@ -24401,9 +24452,22 @@ only screen and (max-width: 575px) {
   overflow-x: clip;
   background: #111111;
   padding-top: 30px;
-  margin-top: -120px;
+  margin-top: -116px;
   position: relative;
   z-index: 1;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+  .rs-text-slide-one {
+    padding-bottom: 8px;
+    overflow-x: clip;
+    background: #111111;
+    padding-top: 15px;
+    margin-top: -82px;
+    position: relative;
+    z-index: 1;
+  }
+
 }
 
 .rs-text-slide-one .rs-text-slide-wrapper {
@@ -24448,9 +24512,16 @@ only screen and (max-width: 575px) {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media(min-width: 577px) and (max-width: 767px) {
   .rs-text-slide-one .rs-text-slide-title {
     font-size: 50px;
+  }
+}
+
+
+@media (min-width: 280px) and (max-width: 576px) {
+  .rs-text-slide-one .rs-text-slide-title {
+    font-size: 28px;
   }
 }
 
@@ -29458,8 +29529,16 @@ only screen and (max-width: 575px) {
 .rs-video-three {
   position: relative;
   overflow-x: clip;
-  /* margin-top: -245px; */
+
   height: 500px;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+  .rs-video-three {
+
+    height: 350px;
+
+  }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -33414,7 +33493,7 @@ a.ui-button:active {
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.1) !important;
 
 
-  
+
 }
 
 .revenue-card:hover {
@@ -33444,7 +33523,7 @@ a.ui-button:active {
 /* strategic partner */
 .partnership-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12) !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12) !important;
 }
 
 .benefit-item:hover .benefit-icon {
@@ -33478,15 +33557,15 @@ a.ui-button:active {
   .strategic-partner .rs-section-title {
     font-size: 28px !important;
   }
-  
+
   .partnership-card {
     margin-bottom: 20px;
   }
-  
+
   .strategic-partner .mb-60 {
     margin-bottom: 40px !important;
   }
-  
+
   .strategic-partner .mb-50 {
     margin-bottom: 35px !important;
   }
@@ -33521,11 +33600,11 @@ a.ui-button:active {
   .contact-hero-section h1 {
     font-size: 42px !important;
   }
-  
+
   .contact-hero-section p {
     font-size: 18px !important;
   }
-  
+
   .contact-info-wrapper,
   .contact-form-wrapper {
     padding: 40px 30px !important;
@@ -33537,24 +33616,24 @@ a.ui-button:active {
     min-height: 35vh !important;
     padding: 40px 0;
   }
-  
+
   .contact-hero-section h1 {
     font-size: 32px !important;
   }
-  
+
   .contact-hero-section p {
     font-size: 16px !important;
   }
-  
+
   .contact-info-wrapper,
   .contact-form-wrapper {
     padding: 30px 25px !important;
   }
-  
+
   .contact-info-item .contact-info-item h4 {
     font-size: 18px !important;
   }
-  
+
   .contact-form-wrapper h3 {
     font-size: 26px !important;
   }
@@ -33563,7 +33642,7 @@ a.ui-button:active {
 /* Impact Card Style */
 .stat-impact-card {
   transition: transform 0.4s ease;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 .stat-impact-card:hover {
@@ -33585,13 +33664,16 @@ a.ui-button:active {
   letter-spacing: 2px;
 }
 
-.py-100 { padding: 100px 0; }
+.py-100 {
+  padding: 100px 0;
+}
 
 
-.mt-50{
+.mt-50 {
   margin-top: 50px
 }
-.strageic-icon{
+
+.strageic-icon {
   min-width: 50px;
   height: 50px;
   display: flex;
@@ -33601,30 +33683,30 @@ a.ui-button:active {
 }
 
 /* CTA Section Enhancements */
-.py-100 { 
-    padding: 100px 0; 
+.py-100 {
+  padding: 100px 0;
 }
 
-.letter-spacing-2 { 
-    letter-spacing: 2px; 
+.letter-spacing-2 {
+  letter-spacing: 2px;
 }
 
 .cta-content h2 {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 
 /* Button Hover Effect */
 .rs-btn {
-    transition: all 0.3s ease;
-    display: inline-block;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 
-.rs-btn:hover {
+/* .rs-btn:hover {
     background: #ffffff !important;
     color: #B71C1C !important;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}
+} */
 
 /* Background Overlay Tint (Optional Gradient) */
 .cta-overlay {
@@ -33648,6 +33730,7 @@ a.ui-button:active {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -33661,13 +33744,13 @@ a.ui-button:active {
 
 .minerals-section .mineral-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   border-color: #B71C1C !important;
 }
 
 .minerals-section .mineral-card-wide:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .minerals-section .group-title-bar {
@@ -33680,6 +33763,7 @@ a.ui-button:active {
     opacity: 0;
     transform: translateX(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -33691,15 +33775,15 @@ a.ui-button:active {
   .minerals-section .section-title {
     font-size: 36px !important;
   }
-  
+
   .minerals-section .mineral-card {
     margin-bottom: 20px;
   }
-  
+
   .about-hero-section .about-hero-title {
     font-size: 42px !important;
   }
-  
+
   .about-hero-section .about-hero-subtitle {
     font-size: 18px !important;
   }
@@ -33709,47 +33793,47 @@ a.ui-button:active {
   .minerals-section .section-title {
     font-size: 28px !important;
   }
-  
+
   .minerals-section .section-desc {
     font-size: 14px !important;
   }
-  
+
   .minerals-section .mineral-name {
     font-size: 24px !important;
   }
-  
+
   .minerals-section .mineral-symbol-large {
     font-size: 60px !important;
     margin-right: 20px !important;
     min-width: 70px !important;
   }
-  
+
   .about-hero-section {
     height: 40vh !important;
   }
-  
+
   .about-hero-section .about-hero-title {
     font-size: 32px !important;
   }
-  
+
   .about-hero-section .about-hero-subtitle {
     font-size: 16px !important;
   }
-  
+
   .minerals-section {
     padding: 60px 0 !important;
   }
-  
+
   .minerals-section .group-name {
     font-size: 18px !important;
   }
 }
 
-.text-para{
+.text-para {
   color: #d3d3d3 !important;
 }
 
-.bg-dark{
+.bg-dark {
   background-color: var(--rs-black) !important;
 }
 
@@ -33798,7 +33882,7 @@ a.ui-button:active {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: repeating-linear-gradient(0deg, transparent, transparent 49px, rgba(255,255,255,0.03) 49px, rgba(255,255,255,0.03) 50px), repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(255,255,255,0.03) 49px, rgba(255,255,255,0.03) 50px);
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 49px, rgba(255, 255, 255, 0.03) 49px, rgba(255, 255, 255, 0.03) 50px), repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(255, 255, 255, 0.03) 49px, rgba(255, 255, 255, 0.03) 50px);
 }
 
 .about-banner-wrapper {
@@ -33814,10 +33898,12 @@ a.ui-button:active {
 
 .about-banner-title {
   font-size: 56px;
-  font-weight: 800;
+  font-weight: 700;
   color: #ffffff;
   margin-bottom: 20px;
   line-height: 1.2;
+  font-family: var(--rs-ff-title) !important;
+
 }
 
 .about-banner-descrip {
@@ -33827,7 +33913,7 @@ a.ui-button:active {
 
 .about-banner-descrip p {
   font-size: 22px;
-  color: rgba(255,255,255,0.85);
+  color: rgba(255, 255, 255, 0.85);
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
@@ -33878,7 +33964,7 @@ a.ui-button:active {
   right: 0;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(234,85,1,0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(234, 85, 1, 0.1) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -33889,7 +33975,7 @@ a.ui-button:active {
   left: 0;
   width: 250px;
   height: 250px;
-  background: radial-gradient(circle, rgba(183,28,28,0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(183, 28, 28, 0.1) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -33919,7 +34005,7 @@ a.ui-button:active {
 
 .contact-banner-descrip p {
   font-size: 20px;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   margin: 0;
   line-height: 1.6;
 }
@@ -33936,6 +34022,7 @@ a.ui-button:active {
 
 /* Responsive Styles for About Banner */
 @media only screen and (max-width: 1199px) {
+
   /* .about-banner-wrapper {
     padding: 130px 0 180px;
   }
@@ -33943,7 +34030,7 @@ a.ui-button:active {
   .about-banner-title {
     font-size: 48px;
   }
-  
+
   .about-banner-descrip p {
     font-size: 20px;
   }
@@ -33953,23 +34040,23 @@ a.ui-button:active {
   /* .about-banner-wrapper {
     padding: 110px 0 160px;
   } */
-  
+
   .about-banner-title {
     font-size: 42px;
   }
-  
+
   .about-banner-descrip p {
     font-size: 18px;
   }
-  
+
   .contact-banner-wrapper {
     /* padding: 80px 0 100px; */
   }
-  
+
   .contact-banner-title {
     font-size: 48px;
   }
-  
+
   .contact-banner-descrip p {
     font-size: 18px;
   }
@@ -33979,38 +34066,38 @@ a.ui-button:active {
   .about-banner-section {
     min-height: 40vh;
   }
-  
+
   /* .about-banner-wrapper {
     padding: 90px 0 140px;
   } */
-  
+
   .about-banner-title {
     font-size: 36px;
   }
-  
+
   .about-banner-descrip p {
     font-size: 16px;
   }
-  
+
   .contact-banner-section {
     min-height: 25vh;
   }
-  
+
   .contact-banner-wrapper {
     /* padding: 70px 0 90px; */
   }
-  
+
   .contact-banner-title {
     font-size: 42px;
   }
-  
+
   .contact-banner-descrip p {
     font-size: 16px;
   }
-} 
+}
 
 
-.footer-logo{
+.footer-logo {
   width: 200px;
 }
 
@@ -34023,7 +34110,7 @@ a.ui-button:active {
   background: #FFFFFF;
   padding: 50px 40px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   height: 100%;
 }
 
@@ -34044,7 +34131,8 @@ a.ui-button:active {
 .contact-info-icon {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #EA5501 0%, #B71C1C 100%);
+  /* background: linear-gradient(135deg, #EA5501 0%, #B71C1C 100%); */
+  background: var(--rs-theme-red);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -34070,7 +34158,7 @@ a.ui-button:active {
 }
 
 .contact-info-link {
-  color: #EA5501;
+  color: var(--rs-theme-red);
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
@@ -34104,7 +34192,7 @@ a.ui-button:active {
   background: #FFFFFF;
   padding: 50px 40px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .contact-form-title {
@@ -34146,6 +34234,8 @@ a.ui-button:active {
   font-size: 15px;
   transition: all 0.3s;
   font-family: inherit;
+  height: 50px;
+  border: 1px solid var(--rs-border-primary) !important;
 }
 
 .form-input:focus,
@@ -34190,43 +34280,177 @@ a.ui-button:active {
 
 /* Responsive Styles for Contact Section */
 @media (max-width: 991px) {
+
   .contact-info-wrapper,
   .contact-form-wrapper {
     padding: 40px 30px;
   }
-  
+
   .contact-form-title {
     font-size: 28px;
   }
 }
 
 @media (max-width: 767px) {
+
   .contact-info-wrapper,
   .contact-form-wrapper {
     padding: 30px 20px;
   }
-  
+
   .contact-info-content {
     padding-left: 0;
     margin-top: 15px;
   }
-  
+
   .contact-info-header {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .contact-info-icon {
     margin-bottom: 10px;
     margin-right: 0;
   }
-  
+
   .contact-form-title {
     font-size: 24px;
   }
-  
+
   .contact-submit-btn {
     padding: 14px 30px;
     font-size: 16px;
   }
+}
+
+
+
+.privacy-policy-page .privacy-section {
+  margin-top: 32px;
+}
+
+.privacy-policy-page .privacy-content {
+  padding: 40px 0 110px;
+}
+
+.privacy-policy-page .privacy-card {
+  background: #fff;
+  border-radius: 26px;
+  padding: 40px;
+  border: 1px solid #eef;
+  box-shadow: 0 30px 60px rgba(10, 24, 57, 0.08);
+}
+
+@media (max-width: 576px) {
+  .privacy-policy-page .privacy-card {
+    background: #fff;
+    border-radius: 26px;
+    padding: 40px 16px !important;
+    border: 1px solid #eef;
+    box-shadow: 0 30px 60px rgba(10, 24, 57, 0.08);
+  }
+
+}
+
+.privacy-policy-page .privacy-card p {
+  line-height: 1.7;
+  color: #3b4558;
+}
+
+.privacy-policy-page .privacy-section h3 {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  margin-bottom: 12px !important;
+  color: #0d2b1f !important;
+}
+
+.privacy-policy-page .privacy-section ul li {
+  margin-bottom: 8px;
+}
+
+.privacy-policy-page .privacy-section ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.offcanvas-content-parent {
+  padding: 24px 30px !important;
+
+}
+
+.offcanvas-top {
+  background-color: #000;
+  padding: 18px 4px;
+}
+
+.offcanvas-menu {
+  display: none;
+}
+
+@media (min-width: 280px) and (max-width: 1199px) {
+  .offcanvas-menu {
+
+    display: block;
+  }
+
+}
+
+
+.offcanvas-menu li {
+  list-style: none !important;
+  margin-bottom: 12px;
+}
+
+/* Container ko overflow hide karna zaroori hai */
+.rs-text-slide-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+}
+
+/* Marquee ki animation */
+.rs-text-slide-inner {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  /* Animation: naam | waqt | linear motion | hamesha ke liye */
+  animation: marquee-move 35s linear infinite;
+}
+
+/* Items ke beech gap */
+.rs-text-slide-item {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  /* Text ke darmiyan fasla */
+}
+
+@media (max-width: 576px) {
+  .rs-text-slide-item {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    /* Text ke darmiyan fasla */
+  }
+}
+
+/* Animation Keyframes */
+@keyframes marquee-move {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+    /* 50% kyunke hum content double karenge */
+  }
+}
+
+/* Mouse hover par roknay ke liye (Optional) */
+.rs-text-slide-wrapper:hover .rs-text-slide-inner {
+  animation-play-state: paused;
+}
+
+.benefits-items {
+  border-bottom: 1px solid #6c757d !important;
 }
